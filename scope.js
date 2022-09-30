@@ -13,7 +13,7 @@ const a = 1; const b = 2; const c = 3;
         const a = 1; const c = 8;
       })()
     })()
+    console.log(`a: ${a}, b: ${b}, c: ${c}`);
   })()
 })()
 
-console.log(`a: ${a}, b: ${b}, c: ${c}`);
